@@ -1,8 +1,5 @@
 <?php
 
-use Hamcrest\Type\IsDouble;
-use PhpParser\Node\Expr\Cast\Double;
-
 function angkaKelipatan($angka){
     if( $angka % 3 === 0 && $angka % 5 === 0 ){
         $panjang = $angka / 3.00;
