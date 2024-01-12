@@ -38,7 +38,7 @@ class Transfer {
 
     public function getItem(string $numberTransaction){
         if(isset($this->items) === NULL){
-            echo "Belum ada transaksi";
+            return "Belum ada transaksi";
         }
         else{
             $foundData = false;
