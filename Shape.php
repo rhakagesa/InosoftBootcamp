@@ -36,7 +36,7 @@ class Circle extends Shape {
     }
 
     public function getArea(): float{
-        return 3.14 * $this->r * $this->r;
+        return 3.14 * ($this->r * $this->r);
     }
 
     public function getCircumference(): float{
